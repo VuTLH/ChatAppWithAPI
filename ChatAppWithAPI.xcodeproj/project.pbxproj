@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1B25EF7B6D5E06103EB2ACBE /* Pods_ChatAppWithAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46522C739176B9439B29250A /* Pods_ChatAppWithAPI.framework */; };
+		2EAB3E7D22AA18F500EC20A1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB3E7C22AA18F500EC20A1 /* Constants.swift */; };
 		2EB1A36F22A91B9B00A5C15F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB1A36E22A91B9B00A5C15F /* AppDelegate.swift */; };
 		2EB1A37422A91B9B00A5C15F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB1A37222A91B9B00A5C15F /* Main.storyboard */; };
 		2EB1A37622A91B9C00A5C15F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB1A37522A91B9C00A5C15F /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2EAB3E7C22AA18F500EC20A1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2EB1A36B22A91B9B00A5C15F /* ChatAppWithAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatAppWithAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB1A36E22A91B9B00A5C15F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EB1A37322A91B9B00A5C15F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,6 +50,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EAB3E7B22AA18D800EC20A1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2EAB3E7C22AA18F500EC20A1 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		2EB1A36222A91B9B00A5C15F = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +79,7 @@
 		2EB1A36D22A91B9B00A5C15F /* ChatAppWithAPI */ = {
 			isa = PBXGroup;
 			children = (
+				2EAB3E7B22AA18D800EC20A1 /* Utils */,
 				2EB1A38722A9258B00A5C15F /* Model */,
 				2EB1A38622A9258200A5C15F /* View */,
 				2EB1A38522A9257600A5C15F /* Controller */,
@@ -257,6 +268,7 @@
 				2EB5BB7922A94C7C008A4C98 /* GradientView.swift in Sources */,
 				2EB1A36F22A91B9B00A5C15F /* AppDelegate.swift in Sources */,
 				2EB1A38422A91F1300A5C15F /* SWRevealViewController.m in Sources */,
+				2EAB3E7D22AA18F500EC20A1 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
