@@ -15,6 +15,7 @@
 		2EB1A38422A91F1300A5C15F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB1A38322A91F1300A5C15F /* SWRevealViewController.m */; };
 		2EB1A38922A925DA00A5C15F /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB1A38822A925DA00A5C15F /* ChatVC.swift */; };
 		2EB1A38B22A925E900A5C15F /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB1A38A22A925E900A5C15F /* ChannelVC.swift */; };
+		2EB5BB7922A94C7C008A4C98 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB5BB7822A94C7C008A4C98 /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		2EB1A38322A91F1300A5C15F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		2EB1A38822A925DA00A5C15F /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		2EB1A38A22A925E900A5C15F /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		2EB5BB7822A94C7C008A4C98 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		46522C739176B9439B29250A /* Pods_ChatAppWithAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatAppWithAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ABE152D9A8BFDF2718A1B6D /* Pods-ChatAppWithAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatAppWithAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatAppWithAPI/Pods-ChatAppWithAPI.debug.xcconfig"; sourceTree = "<group>"; };
 		D428A6355F0F2AE4D2460993 /* Pods-ChatAppWithAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatAppWithAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatAppWithAPI/Pods-ChatAppWithAPI.release.xcconfig"; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		2EB1A38622A9258200A5C15F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2EB5BB7822A94C7C008A4C98 /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			files = (
 				2EB1A38B22A925E900A5C15F /* ChannelVC.swift in Sources */,
 				2EB1A38922A925DA00A5C15F /* ChatVC.swift in Sources */,
+				2EB5BB7922A94C7C008A4C98 /* GradientView.swift in Sources */,
 				2EB1A36F22A91B9B00A5C15F /* AppDelegate.swift in Sources */,
 				2EB1A38422A91F1300A5C15F /* SWRevealViewController.m in Sources */,
 			);
@@ -411,6 +415,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Huy-Vu.ChatAppWithAPI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OBJC_BRIDGING_HEADER = "/Users/huyvu/Desktop/IOS/ChatAppWithAPI/ChatAppWithAPI/Supporting Files/ChatAppWithAPI-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "ChatAppWithAPI-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
