@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1B25EF7B6D5E06103EB2ACBE /* Pods_ChatAppWithAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46522C739176B9439B29250A /* Pods_ChatAppWithAPI.framework */; };
 		2EAB3E7D22AA18F500EC20A1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB3E7C22AA18F500EC20A1 /* Constants.swift */; };
+		2EAB3E7F22AA228F00EC20A1 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB3E7E22AA228F00EC20A1 /* LoginVC.swift */; };
 		2EB1A36F22A91B9B00A5C15F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB1A36E22A91B9B00A5C15F /* AppDelegate.swift */; };
 		2EB1A37422A91B9B00A5C15F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB1A37222A91B9B00A5C15F /* Main.storyboard */; };
 		2EB1A37622A91B9C00A5C15F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB1A37522A91B9C00A5C15F /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		2EAB3E7C22AA18F500EC20A1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2EAB3E7E22AA228F00EC20A1 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		2EB1A36B22A91B9B00A5C15F /* ChatAppWithAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatAppWithAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB1A36E22A91B9B00A5C15F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EB1A37322A91B9B00A5C15F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			children = (
 				2EB1A38822A925DA00A5C15F /* ChatVC.swift */,
 				2EB1A38A22A925E900A5C15F /* ChannelVC.swift */,
+				2EAB3E7E22AA228F00EC20A1 /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			files = (
 				2EB1A38B22A925E900A5C15F /* ChannelVC.swift in Sources */,
 				2EB1A38922A925DA00A5C15F /* ChatVC.swift in Sources */,
+				2EAB3E7F22AA228F00EC20A1 /* LoginVC.swift in Sources */,
 				2EB5BB7922A94C7C008A4C98 /* GradientView.swift in Sources */,
 				2EB1A36F22A91B9B00A5C15F /* AppDelegate.swift in Sources */,
 				2EB1A38422A91F1300A5C15F /* SWRevealViewController.m in Sources */,
