@@ -12,7 +12,7 @@ class ChannelVC: UIViewController {
     
     //outlets
     @IBOutlet weak var loginBtn: UIButton!
-    
+    @IBAction func prepareForUnwind(segue: UIStoryboardSegue) {} //tạo unwind Segue để back từ createAccVC về Channel VC.
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,5 +24,5 @@ class ChannelVC: UIViewController {
         performSegue(withIdentifier: TO_LOGIN, sender: nil)
     }
     
-
+    
 }
