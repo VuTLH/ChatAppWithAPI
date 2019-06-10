@@ -128,7 +128,7 @@
                                     <action selector="closeCreateAccPressed:" destination="DEK-nG-YdC" eventType="touchUpInside" id="yd3-Ab-pmx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YTW-Gg-zTj">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YTW-Gg-zTj" customClass="RoundedButton" customModule="ChatAppWithAPI" customModuleProvider="target">
                                 <rect key="frame" x="82" y="656" width="250" height="50"/>
                                 <color key="backgroundColor" red="0.22862221930000001" green="0.42875909750000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -139,6 +139,9 @@
                                 <state key="normal" title="Create Account">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="createAccBtnPressed:" destination="DEK-nG-YdC" eventType="touchUpInside" id="NVd-ef-34P"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create An Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QeU-dr-9sg">
                                 <rect key="frame" x="121.33333333333333" y="59.999999999999993" width="171.33333333333337" height="22.666666666666664"/>
@@ -213,6 +216,7 @@
                                     <action selector="creatAccountBtnPressed:" destination="lw6-lp-oBn" eventType="touchUpInside" id="uDY-Ik-2jP"/>
                                     <action selector="createAccBtnPressed:" destination="lw6-lp-oBn" eventType="touchUpInside" id="gZw-rQ-Bcd"/>
                                     <action selector="createAccBtnPressed:" destination="6bj-jc-uz6" eventType="touchUpInside" id="sY3-Qm-gpq"/>
+                                    <action selector="pickAvatarPressed:" destination="DEK-nG-YdC" eventType="touchUpInside" id="gjF-Gw-txx"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="aUA-Ss-2vd">
@@ -234,6 +238,7 @@
                                     <action selector="creatAccountBtnPressed:" destination="lw6-lp-oBn" eventType="touchUpInside" id="EJu-wz-sGf"/>
                                     <action selector="createAccBtnPressed:" destination="lw6-lp-oBn" eventType="touchUpInside" id="4SQ-uG-sBn"/>
                                     <action selector="createAccBtnPressed:" destination="6bj-jc-uz6" eventType="touchUpInside" id="Ymx-Mo-KXL"/>
+                                    <action selector="createBGColorPressed:" destination="DEK-nG-YdC" eventType="touchUpInside" id="DsL-8o-svN"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -259,6 +264,10 @@
                         <viewLayoutGuide key="safeArea" id="ZLV-oL-wCD"/>
                     </view>
                     <connections>
+                        <outlet property="emailTxt" destination="FWd-Pe-1fZ" id="z4p-iz-JW6"/>
+                        <outlet property="passwordTxt" destination="pde-OI-xBW" id="e9i-Mc-mwR"/>
+                        <outlet property="userImg" destination="aUA-Ss-2vd" id="q6J-1W-GTu"/>
+                        <outlet property="usernameTxt" destination="Ee9-zj-Oyd" id="hvH-Bd-yDl"/>
                         <segue destination="4Ad-zl-kKp" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindWithSegue:" id="4KK-5N-O3O"/>
                     </connections>
                 </viewController>
@@ -282,7 +291,7 @@
                                     <action selector="closeBtnPressed:" destination="6bj-jc-uz6" eventType="touchUpInside" id="oV5-Nv-o42"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yza-B0-kyt">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yza-B0-kyt" customClass="RoundedButton" customModule="ChatAppWithAPI" customModuleProvider="target">
                                 <rect key="frame" x="82" y="286" width="250" height="50"/>
                                 <color key="backgroundColor" red="0.22862221930000001" green="0.42875909750000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
