@@ -20,14 +20,17 @@ let URL_USER_ADD = "\(BASE_URL)user/add"
 let TO_LOGIN = "toLogin"
 let TO_CREATEO_ACCOUNT = "toCreateAccount"
 let UNWIND = "unwindToChannel"
+let TO_AVATAR_PICKER = "toAvatarPicker"
 
 //User defaults
 let TOKEN_KEY = "token"
 let LOGGED_IN_KEY = "loggedIn"
 let USER_EMAIL = "userEmail"
 
-//Headers
+//Identifier
+let AVATAR_CELL = "avatarCell"
 
+//Headers
 let HEADER = [
     "Content-Type": "application/json; charset=utf-8"
 ]
