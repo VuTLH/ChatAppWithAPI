@@ -105,7 +105,6 @@
                     </view>
                     <connections>
                         <outlet property="loginBtn" destination="tyP-jv-bdh" id="xN1-CL-FiU"/>
-                        <outlet property="userImg" destination="iEV-iu-rf2" id="WaP-d6-vIK"/>
                         <segue destination="6bj-jc-uz6" kind="show" identifier="toLogin" id="f7M-Lk-ece"/>
                     </connections>
                 </viewController>
@@ -122,7 +121,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7rW-R8-jat">
-                                <rect key="frame" x="376" y="30" width="28" height="28"/>
+                                <rect key="frame" x="388" y="30" width="16" height="22"/>
                                 <state key="normal" image="closeButton"/>
                                 <connections>
                                     <action selector="closeBtnPressed:" destination="6bj-jc-uz6" eventType="touchUpInside" id="JLu-hk-746"/>
